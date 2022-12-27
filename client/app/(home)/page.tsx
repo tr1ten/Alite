@@ -1,13 +1,11 @@
-import Image from 'next/image'
-import { useState } from 'react';
+import Hero from '../../components/Hero'
 import styles from './page.module.css'
-
 
 export default async function Home() {
   return (
     <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Hello Turbopack</h1> 
+          <Hero></Hero>
       </main>
     </div>
   )
